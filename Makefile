@@ -15,6 +15,6 @@ install:
 
 uninstall:
 	rm -f $(BINDIR)/$(BINARY)
-	rm -f $(SERVICEDIR)/$(BINDIR)
+	rm -f $(SERVICEDIR)/$(SERVICE)
 	systemctl daemon-reload
 	@echo "Uninstall OK"
