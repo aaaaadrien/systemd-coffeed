@@ -16,69 +16,77 @@ The French phrase "faire tout sauf le café" (to do everything but make coffee) 
 # Installation
 
 Clone the repo :
-``` 
-https://github.com/aaaaadrien/systemd-coffeed.git
+``` bash
+git clone https://github.com/aaaaadrien/systemd-coffeed.git
 ```
 
 Go to the project :
-```
+```bash
 cd systemd-coffeed
 ```
 
 Install : 
-```
+```bash
 make install
 ```
 
 # Uninstall
 
-Clone the repo :
-``` 
-https://github.com/aaaaadrien/systemd-coffeed.git
+Clone the repo:
+
+```bash
+git clone https://github.com/aaaaadrien/systemd-coffeed.git
 ```
 
-Go to the project :
-```
+Go to the project:
+
+```bash
 cd systemd-coffeed
 ```
 
-Uninstall : 
-```
+Uninstall:
+
+```bash
 make uninstall
 ```
 
 # Build RPM
 
-Clone the repo :
-``` 
-https://github.com/aaaaadrien/systemd-coffeed.git
+Clone the repo:
+
+```bash
+git clone https://github.com/aaaaadrien/systemd-coffeed.git
 ```
 
-Go to the project :
-```
+Go to the project:
+
+```bash
 cd systemd-coffeed
 ```
 
-Build RPM
+Build:
 
 ```bash
 make rpm
 ```
 
-# Usage 
+# Usage
 
-Start the service :
-```
+Start the service:
+
+```bash
 systemctl start systemd-coffeed.service
 ```
 
-See the status :
-```
+See the status:
+
+```bash
 systemctl status systemd-coffeed.service
 ```
 
-Example of output : 
-```
+Example of output: 
+
+```bash
 ○ systemd-coffeed.service - systemd does it all, it even makes the coffee
      Loaded: loaded (/usr/lib/systemd/system/systemd-coffeed.service; disabled; preset: disabled)
     Drop-In: /usr/lib/systemd/system/service.d
