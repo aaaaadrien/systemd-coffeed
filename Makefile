@@ -5,7 +5,7 @@ SERVICEDIR = $(PREFIX)/lib/systemd/system
 BINARY = systemd-coffeed
 SERVICE = systemd-coffeed.service
 
-.PHONY: install uninstall
+.PHONY: install uninstall rpm
 
 install:
 	install -m 755 -v $(BINARY) $(BINDIR)/
@@ -18,3 +18,7 @@ uninstall:
 	rm -f $(SERVICEDIR)/$(SERVICE)
 	systemctl daemon-reload
 	@echo "Uninstall OK"
+
+rpm:
+	spectool -g -R $(BINARY).spec
+	rpmbuild -ba $(BINARY).spec

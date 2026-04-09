@@ -47,6 +47,24 @@ Uninstall :
 make uninstall
 ```
 
+# Build RPM
+
+Clone the repo :
+``` 
+https://github.com/aaaaadrien/systemd-coffeed.git
+```
+
+Go to the project :
+```
+cd systemd-coffeed
+```
+
+Build RPM
+
+```bash
+make rpm
+```
+
 # Usage 
 
 Start the service :
