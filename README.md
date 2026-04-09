@@ -1,2 +1,80 @@
 # systemd-coffeed
 systemd does it all, it even makes the coffee !
+
+# Why this project ?
+
+In the Linux community, systemd is often criticized for its "feature creep"—the tendency to absorb functions that were traditionally handled by separate, smaller tools. The project was born as a literal response to the long-standing French joke: if systemd is going to manage everything else, it might as well manage the caffeine intake of the sysadmins too.
+
+
+The French phrase "faire tout sauf le café" (to do everything but make coffee) is used to describe a tool that has become so multifunctional it borders on the absurd.
+
+
+*NOTE :* This specific idiom does not translate directly into English. An English speaker wouldn't say "it does everything but the coffee" to express this sentiment. Instead, they use the expression "everything and the kitchen sink."
+
+*NOTE2 :* I use systemd everyday, i don't hate the project. I'm a Fedora Linux and Alma Linux contributor <3
+
+# Installation
+
+Clone the repo :
+``` 
+https://github.com/aaaaadrien/systemd-coffeed.git
+```
+
+Go to the project :
+```
+cd systemd-coffeed
+```
+
+Install : 
+```
+make install
+```
+
+# Uninstall
+
+Clone the repo :
+``` 
+https://github.com/aaaaadrien/systemd-coffeed.git
+```
+
+Go to the project :
+```
+cd systemd-coffeed
+```
+
+Uninstall : 
+```
+make uninstall
+```
+
+# Usage 
+
+Start the service :
+```
+systemctl start systemd-coffeed.service
+```
+
+See the status :
+```
+systemctl status systemd-coffeed.service
+```
+
+Example of output : 
+```
+○ systemd-coffeed.service - systemd does it all, it even makes the coffee
+     Loaded: loaded (/usr/lib/systemd/system/systemd-coffeed.service; disabled; preset: disabled)
+    Drop-In: /usr/lib/systemd/system/service.d
+             └─10-timeout-abort.conf
+     Active: inactive (dead)
+
+avril 08 17:56:09 superlinux systemd-coffeed[2540693]:      ) (   )  (  (
+avril 08 17:56:09 superlinux systemd-coffeed[2540693]:      ( )  (    ) )
+avril 08 17:56:09 superlinux systemd-coffeed[2540693]:      _____________
+avril 08 17:56:09 superlinux systemd-coffeed[2540693]:     <_____________> ___
+avril 08 17:56:09 superlinux systemd-coffeed[2540693]:     |             |/ _ \
+avril 08 17:56:09 superlinux systemd-coffeed[2540693]:     |               | | |
+avril 08 17:56:09 superlinux systemd-coffeed[2540693]:     |               |_| |
+avril 08 17:56:09 superlinux systemd-coffeed[2540693]:     |             |\___/
+avril 08 17:56:09 superlinux systemd-coffeed[2540693]:      \___________/
+avril 08 17:56:09 superlinux systemd[1]: systemd-coffeed.service: Deactivated successfully.
+```
