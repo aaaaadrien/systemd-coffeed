@@ -1,5 +1,5 @@
 [Unit]
-Description=systemd does it all, it even makes the coffee
+Description=systemd does it all, it even makes coffee
 After=systemd-journald.service
 
 [Service]

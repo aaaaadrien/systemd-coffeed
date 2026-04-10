@@ -1,17 +1,17 @@
 # systemd-coffeed
-systemd does it all, it even makes the coffee !
+systemd does it all, it even makes coffee!
 
-# Why this project ?
+# Why this project?
 
 In the Linux community, systemd is often criticized for its "feature creep"—the tendency to absorb functions that were traditionally handled by separate, smaller tools. The project was born as a literal response to the long-standing French joke: if systemd is going to manage everything else, it might as well manage the caffeine intake of the sysadmins too.
 
 
-The French phrase "faire tout sauf le café" (to do everything but make coffee) is used to describe a tool that has become so multifunctional it borders on the absurd.
+The French phrase "faire tout sauf le café" (lit. "to do everything but the coffee") is used to describe a tool that has become so multifunctional it borders on the absurd.
 
 
-*NOTE :* This specific idiom does not translate directly into English. An English speaker wouldn't say "it does everything but the coffee" to express this sentiment. Instead, they use the expression "everything and the kitchen sink."
+*NOTE:* This specific idiom does not translate directly into English. An English speaker wouldn't say "it does everything but the coffee" to express this sentiment. Instead, they use the expression "everything and the kitchen sink."
 
-*NOTE2 :* I use systemd everyday, i don't hate the project. I'm a Fedora Linux and Alma Linux contributor <3
+*NOTE2:* I use systemd everyday, i don't hate the project. I'm a Fedora Linux and Alma Linux contributor <3
 
 # Installation
 
