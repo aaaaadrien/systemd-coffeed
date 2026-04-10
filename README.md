@@ -13,6 +13,18 @@ The French phrase "faire tout sauf le café" (lit. "to do everything but the cof
 
 *NOTE2:* I use systemd everyday, i don't hate the project. I'm a Fedora Linux and Alma Linux contributor <3
 
+
+> **French version :**
+> 
+> Au sein de la communauté Linux, systemd est souvent critiqué pour son aspect usine à gaz, cette tendance à absorber des fonctions qui étaient traditionnellement gérées par des outils distincts et plus légers.
+> 
+> L'expression « faire tout sauf le café » est utilisée pour décrire un outil devenu tellement polyvalent qu'il en frise l'absurde.
+> 
+> NOTE : Cet blague ne se traduit pas littéralement en anglais. Un anglophone ne dirait pas « it does everything but the coffee » pour exprimer cette idée. À la place, il utilisera l'expression « everything and the kitchen sink » (littéralement : tout, y compris l'évier de la cuisine).
+> 
+> NOTE 2 : J'utilise systemd au quotidien, je ne déteste pas le projet. Je suis d'ailleurs contributeur pour Fedora Linux et Alma Linux <3.
+
+
 # Installation
 
 Clone the repo :
