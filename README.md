@@ -27,17 +27,17 @@ The French phrase "faire tout sauf le café" (lit. "to do everything but the cof
 
 # Installation
 
-Clone the repo :
+Clone the repo:
 ``` bash
 git clone https://github.com/aaaaadrien/systemd-coffeed.git
 ```
 
-Go to the project :
+Go to the project:
 ```bash
 cd systemd-coffeed
 ```
 
-Install : 
+Install: 
 ```bash
 make install
 ```
