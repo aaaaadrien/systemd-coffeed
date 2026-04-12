@@ -6,7 +6,7 @@ Summary:        systemd does it all, it even makes coffee!
 
 License:        GPL-3.0-or-later
 URL:            https://github.com/aaaaadrien/systemd-coffeed
-Source0:        https://github.com/aaaaadrien/%{name}/archive/refs/heads/main.zip
+Source0:        https://github.com/aaaaadrien/%{name}/archive/refs/tags/v%{version}.tar.gz
 BuildArch:      noarch
 
 BuildRequires:  systemd
@@ -18,7 +18,7 @@ Requires:       bash
 systemd does it all, it even makes coffee!
 
 %prep
-%setup -qn systemd-coffeed
+%setup -qn systemd-coffeed-%{version}
 
 %build
 
