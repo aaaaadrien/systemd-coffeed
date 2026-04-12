@@ -27,6 +27,32 @@ The French phrase "faire tout sauf le café" (lit. "to do everything but the cof
 
 # Installation
 
+## Fedora Linux with adriend COPR
+
+Add the adriend copr repo :
+``` bash
+sudo dnf copr enable adriend/fedora-apps
+```
+
+Install the package :
+``` bash
+sudo dnf install systemd-coffeed
+```
+
+## RHEL, Alma Linux and other EL based
+
+Add the adriend copr repo :
+``` bash
+sudo dnf copr enable adriend/el-apps
+```
+
+Install the package :
+``` bash
+sudo dnf install systemd-coffeed
+```
+
+## Manual installation
+
 Clone the repo:
 ``` bash
 git clone https://github.com/aaaaadrien/systemd-coffeed.git
@@ -43,6 +69,14 @@ make install
 ```
 
 # Uninstall
+
+## Fedora Linux, RHEL, Alma Linux and other EL based
+
+Remove the package :
+``` bash
+sudo dnf remove systemd-coffeed
+```
+## Manual uninstallation
 
 Clone the repo:
 
