@@ -39,7 +39,7 @@ Install the package :
 sudo dnf install systemd-coffeed
 ```
 
-## RHEL, Alma Linux and other EL based
+## RHEL, Alma Linux and other EL based with adriend COPR
 
 Add the adriend copr repo :
 ``` bash
