@@ -3,26 +3,47 @@ systemd does it all, it even makes coffee!
 
 # Why this project?
 
-In the Linux community, systemd is often criticized for its "feature creep"—the tendency to absorb functions that were traditionally handled by separate, smaller tools. The project was born as a literal response to the long-standing French joke: if systemd is going to manage everything else, it might as well manage the caffeine intake of the sysadmins too.
+In the Linux community, systemd is often criticized for its "feature creep"—the tendency to absorb functions traditionally handled by separate, smaller tools. This project plays on the classic idioms about systemd's omnipotence, then flips them for humor:
 
+- **French idiom**: *"Il fait tout sauf le café."*
+  → **Project response**: *"Il fait MÊME le café !"*
 
-The French phrase "faire tout sauf le café" (lit. "to do everything but the coffee") is used to describe a tool that has become so multifunctional it borders on the absurd.
+- **English equivalent**: *"It does everything and the kitchen sink."*
+  → **Project response**: *"It does EVERYTHING, even the kitchen sink!"*
 
+- **Spanish idiom**: While Spanish lacks a direct equivalent to "faire tout sauf le café," we invented:
+  *"Lo hace todo, hablar también."* (It does everything, even talk!)
+  Because if systemd managed *everything else*, why not speech too?
+  → **Project response**: *"Lo hace todo, hablar también."*
 
-*NOTE:* This specific idiom does not translate directly into English. An English speaker wouldn't say "it does everything but the coffee" to express this sentiment. Instead, they use the expression "everything and the kitchen sink."
+The ASCII art adapts to each language, reinforcing the absurdity of systemd’s hypothetical reach.
 
-*NOTE2:* I use systemd everyday, i don't hate the project. I'm a Fedora Linux and Alma Linux contributor <3
+> **Note**: These idioms highlight how systemd is jokingly seen as an all-encompassing tool. The project’s responses twist them for comedic effect.
 
+> **Note 2**: I use systemd daily and contribute to Fedora Linux and Alma Linux. This is a lighthearted tribute, not criticism. <3
 
-> **French version :**
-> 
-> Au sein de la communauté Linux, systemd est souvent critiqué pour son aspect usine à gaz, cette tendance à absorber des fonctions qui étaient traditionnellement gérées par des outils distincts et plus légers.
-> 
-> L'expression « faire tout sauf le café » est utilisée pour décrire un outil devenu tellement polyvalent qu'il en frise l'absurde.
-> 
-> NOTE : Cet blague ne se traduit pas littéralement en anglais. Un anglophone ne dirait pas « it does everything but the coffee » pour exprimer cette idée. À la place, il utilisera l'expression « everything and the kitchen sink » (littéralement : tout, y compris l'évier de la cuisine).
-> 
-> NOTE 2 : J'utilise systemd au quotidien, je ne déteste pas le projet. Je suis d'ailleurs contributeur pour Fedora Linux et Alma Linux <3.
+---
+
+> **Version française :**
+>
+> Dans la communauté Linux, systemd est souvent critiqué pour son *"feature creep"*, cette tendance à absorber des fonctions traditionnellement gérées par des outils distincts. Ce projet joue sur les idiomes classiques autour de l'omnipotence de systemd, puis les retourne de manière humoristique :
+>
+> - **Idiome français** : *« Il fait tout sauf le café. »*
+>   → **Réponse du projet** : *« Il fait MÊME le café ! »*
+>
+> - **Équivalent anglais** : *« It does everything and the kitchen sink. »*
+>   → **Réponse du projet** : *« It does EVERYTHING, even the kitchen sink! »*
+>
+> - **Idiome espagnol** : Bien qu'il n'existe pas d'équivalent direct en espagnol à *« faire tout sauf le café »*, nous avons inventé :
+  *« Lo hace todo, hablar también. »* (Il fait tout, même parler !)
+  *Parce que si systemd gérait déjà tout le reste, pourquoi pas la parole aussi ?*
+>   → **Réponse du projet** : *« Lo hace todo, hablar también. »*
+>
+> L'art ASCII s'adapte à chaque langue pour renforcer l'absurdité de la portée hypothétique de systemd.
+>
+> > **Note** : Ces idiomes soulignent comment systemd est perçu comme un outil tout-puissant. Les réponses du projet les détournent pour un effet comique.
+> >
+> > **Note 2** : J'utilise systemd quotidiennement et contribue à Fedora et Alma Linux. Ce projet est un hommage léger, pas une critique. <3
 
 
 # Installation
